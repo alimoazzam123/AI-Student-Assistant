@@ -34,19 +34,19 @@ git clone https://github.com/alimoazzam123/ai-student-assistant.git
 cd ai-student-assistant
 
 
-2️⃣ Create and Activate Virtual Environment (Recommended)
+###2️⃣ Create and Activate Virtual Environment (Recommended)
 bash
 Copy
 Edit
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
-3️⃣ Install Dependencies
+###3️⃣ Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-4️⃣ Add API Key
+###4️⃣ Add API Key
 Create a .env file and add your EURI AI key:
 
 env
