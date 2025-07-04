@@ -32,3 +32,10 @@ Boost your learning experience with this all-in-one AI academic assistant built 
 ```bash
 git clone https://github.com/alimoazzam123/ai-student-assistant.git
 cd ai-student-assistant
+
+2️⃣ Create and Activate Virtual Environment (Recommended)
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
