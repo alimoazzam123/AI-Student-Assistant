@@ -33,9 +33,68 @@ Boost your learning experience with this all-in-one AI academic assistant built 
 git clone https://github.com/alimoazzam123/ai-student-assistant.git
 cd ai-student-assistant
 
+
 2️⃣ Create and Activate Virtual Environment (Recommended)
 bash
 Copy
 Edit
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
+
+3️⃣ Install Dependencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+4️⃣ Add API Key
+Create a .env file and add your EURI AI key:
+
+env
+Copy
+Edit
+API_KEY=your_euriai_api_key
+5️⃣ Run the App
+bash
+Copy
+Edit
+streamlit run app.py
+Visit: http://localhost:8501
+
+📁 File Structure
+bash
+Copy
+Edit
+📦 ai-student-assistant
+├── app.py                       # Main Streamlit app
+├── requirements.txt             # Python dependencies
+├── .env                         # API key file
+├── assets/                      # Logo & background
+├── pdfs/                        # Uploaded PDFs
+├── vector_store/                # FAISS vector DB
+└── src/
+    └── components/
+        ├── doubt_solver.py
+        ├── quiz_generator.py
+        └── roadmap_creator.py
+🖼️ Sample Screenshots (optional)
+Add your own screenshots from the app UI (Home, Quiz, Doubt Solver, Roadmap)
+
+🔮 Coming Soon
+🧑‍🏫 Homework Checker
+
+📈 Learning Analytics
+
+🗣️ Multilingual Query Support
+
+🧠 AI Tutor Agent
+
+📅 Study Scheduler
+
+👨‍💻 Author
+Md Moazzam Ali
+📧 moazzam@example.com
+🔗 LinkedIn
+
+📄 License
+This project is licensed under the MIT License.
+You’re free to use, modify, and distribute for educational or personal use.
